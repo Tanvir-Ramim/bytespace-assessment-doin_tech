@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+@theme inline {
+  --font-satoshi: var(--font-satoshi), sans-serif;
+  --font-poppins: var(--font-poppins), sans-serif;
+}
+body {
+  font-family: var(--font-satoshi), sans-serif;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+}
